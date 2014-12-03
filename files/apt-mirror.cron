@@ -1,4 +1,4 @@
 #
 # Regular cron jobs for the apt-mirror package
 #
-*/5 * * * * run-one  apt-mirror  /usr/bin/apt-mirror > /var/spool/apt-mirror/var/cron.log
+*/5 * * * * apt-mirror run-one  /usr/bin/apt-mirror > /var/spool/apt-mirror/var/cron.log
